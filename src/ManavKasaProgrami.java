@@ -31,7 +31,5 @@ public class ManavKasaProgrami {
         System.out.println("Toplam tutar : "+toplam);
 
 
-
-
     }
 }
