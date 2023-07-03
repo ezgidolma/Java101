@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class UssuSayiHesaplama {
+public class UsluSayiHesaplama {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int us, alt, sonuc = 1;
