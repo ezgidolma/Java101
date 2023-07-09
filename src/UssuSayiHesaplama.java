@@ -1,13 +1,9 @@
 import java.util.Scanner;
 
 public class UssuSayiHesaplama {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int us, alt, sonuc = 1;
-        System.out.println("Altı giriniz: ");
-        alt = input.nextInt();
-        System.out.println("Üssü giriniz: ");
-        us = input.nextInt();
+
+    static void ushesaplama(int alt,int us){
+        int sonuc=1;
         if (us == 0) {
             System.out.println("Sonuç: " + 1);
         } else {
@@ -16,5 +12,15 @@ public class UssuSayiHesaplama {
             }
             System.out.println("Üslü sayı sonucu :" + sonuc);
         }
+    }
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int us, alt;
+        System.out.println("Altı giriniz: ");
+        alt = input.nextInt();
+        System.out.println("Üssü giriniz: ");
+        us = input.nextInt();
+        ushesaplama(alt,us);
+
     }
 }
